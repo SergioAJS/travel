@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/img/168111-travel-icon-free-png-hq.png">
+</head>
+<body>
+    <div id="transID"></div>
+    <div id="transID-Pop-up"></div>
+    <div class="pop-up">
+        <div class="pop-up_container">
+            <div class="pop-up_content">
+                <h3 class='pop-up-title'>Log in to your account</h3>
+                <button class="sign-facebook-button sign-button"><img class="facebook-icon" src="./assets/svg/Facebook_Logo.svg" alt="Facebook logo"><span>Sign In with Facebook</span></button>
+                <button class="sign-google-button sign-button"><img class="google-icon" src="./assets/svg/Google_Logo.svg" alt="Google logo"><span>Sign In with Google</span></button>
+                <div class="divider">
+                    <div class="semi-line"></div>
+                    <span class="divider-text">or</span>
+                    <div class="semi-line"></div>
+                </div>
+                <form class="pop-up-form" name="login">
+                    <div class="e_mail">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="pass">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" minlength="8" maxlength="16" size="16" name="pass" required>
+                    </div>
+                    <div class="submit">
+                        <button class="submit-button" type="submit">Sign in</button>
+                    </div>
+                </form>
+                <a class="forgot-pass" href="#">Forgot Your Password?</a>
+                <div class="line"></div>
+                <div class="register">
+                    <span class="account">Don’t have an account?</span> <a class="register-link" href="#">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header-nav">
+            <div class="header-container">
+                <div class="logo icon-logo">
+                    <a class="logo-link" href="#">Travel Portal</a>
+                </div>
+                <nav class="desktop-nav">
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="#explore">How It Works</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#plan">Plan Your Trip</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#stories">Travel Stories</a></li>
+                    </ul>
+                </nav>
+                <div class="login">
+                    <button class="login-button">
+                        Login
+                    </button>
+                </div>
+                <nav class="header_nav">
+                    <ul class="header_links">
+                            <li class="header_item"><a class="header_link" href="#explore">How It Works</a></li>
+                            <li class="header_item"><a class="header_link" href="#plan">Plan Your Trip</a></li>
+                            <li class="header_item"><a class="header_link" href="#destinations">Destinations</a></li>
+                            <li class="header_item"><a class="header_link" href="#stories">Travel Stories</a></li>
+                            <li class="header_item"><a class="header_link account-login" href="#">Account</a></li>
+                            <li class="header_item"><a class="header_link" href="#social">Social Media</a></li>
+                    </ul>
+                    <div class="header_nav-close">
+                        <span class="header_nav-close-line"></span>
+                        <span class="header_nav-close-line"></span>
+                    </div>
+                </nav>
+                <div class="header_burger hamburger">
+                    <span class="burger_line burger_line_first"></span>
+                </div>
+            </div>
+        </div>
+        <section class="preview">
+            <h1 class="title" id="explore">
+                Explore the beauty of<br> the World
+            </h1>
+            <p class="description">
+                Receive personalized recommendations for countries, hotels, activities and more
+            </p>
+            <form class="form">
+                <input type="text" id="search" placeholder="What would you like to do?">
+                <button class="button-search">Start Planning</button>
+            </form>
+        </section>
+    </header>
+    <main>
+        <section class="steps" id="plan">
+            <div class="container">
+                <h2 class="title-2">
+                    3 STEPS TO THE PERFECT TRIP
+                </h2>
+                <div class="actions">
+                    <div class="action-item1 icon">
+                        Tell us what you want to do
+                    </div>
+                    <div class="action-item2 icon">
+                        Share us preferable dates
+                    </div>
+                    <div class="action-item3 icon">
+                        We will give you recommendations
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="destinations" id="destinations">
+            <h2 class="title-destinations">
+                POPULAR DESTINATIONS
+            </h2>
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <div class="first country-name">
+                            <img class="desktop-usa" src="./assets/img/USA.jpg" alt="USA"><p class="desktop-country">USA</p>
+                            <img class="tablet-usa" src="./assets/img/usa-mobile.jpg" alt="USA"><p class="desktop-country">USA</p>                        </div>
+                        <div class="country-name spain">
+                            <img class="desktop-spain" src="./assets/img/Spain.jpg" alt="Spain"><p class="desktop-country">SPAIN</p>
+                            <img class="tablet-spain" src="./assets/img/spain-mobile.jpg" alt="Spain"><p class="desktop-country">SPAIN</p>
+                            <img class="mobile-usa" src="./assets/img/usa-mobile.jpg" alt="Spain"><p class="mobile-country">USA</p>
+                        </div>
+                        <div class="country-name japan">
+                            <img class="desktop-japan" src="./assets/img/Japan.jpg" alt="Japan"><p class="desktop-country">JAPAN</p>
+                            <img class="tablet-japan" src="./assets/img/japan-mobile.jpg" alt="Japan"><p class="desktop-country">JAPAN</p>
+                            <img class="mobile-spain" src="./assets/img/spain-mobile.jpg" alt="Japan"><p class="mobile-country">SPAIN</p>
+                        </div>
+                        <div class="country-name usa">
+                            <img class="desktop-usa" src="./assets/img/USA.jpg" alt="USA"><p class="desktop-country">USA</p>
+                            <img class="tablet-usa" src="./assets/img/usa-mobile.jpg" alt="USA"><p class="desktop-country">USA</p>
+                            <img class="mobile-japan" src="./assets/img/japan-mobile.jpg" alt="USA"><p class="mobile-country">JAPAN</p>
+                        </div>
+                        <div class="last country-name">
+                            <img class="desktop-usa" src="./assets/img/Spain.jpg" alt="Spain"><p class="desktop-country">SPAIN</p>
+                            <img class="tablet-spain" src="./assets/img/spain-mobile.jpg" alt="Spain"><p class="desktop-country">SPAIN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-container">
+                    <div class="item active-slide">
+                        <div class="country">
+                            <!-- <div class="project-name">
+                                
+                            </div> -->
+                            <img class="mobile-spain" src="./assets/img/spain-mobile.jpg" alt="Spain"><p class="mobile-country">SPAIN</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="country">
+                            <!-- <div class="project-name">
+                                
+                            </div> -->
+                            <img class="mobile-japan" src="./assets/img/japan-mobile.jpg" alt="Japan"><p class="mobile-country">JAPAN</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="country">
+                            <!-- <div class="project-name">
+                                
+                            </div> -->
+                            <img class="mobile-usa" src="./assets/img/usa-mobile.jpg" alt="USA"><p class="mobile-country">USA</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="slider-arrows">
+                <div class="arrow-left"></div>
+                <div class="arrow-right"></div>
+            </div>
+            <div class="slider-dot-wrapper">
+                <div class="dot-absolute">
+                    <div class="slider-dot mobile-slider-dot-active"></div>
+                    <div class="desktop-slider-dot-active slider-dot"></div>
+                    <div class="slider-dot"></div>
+                </div>
+            </div>
+            <div class="destinations-button">
+                <button class="button-more icon-arrow">Find More</button>
+            </div>
+        </section>
+    </main>
+        <h2 class="title-stories" id="stories">
+            TRAVEL STORIES
+        </h2>
+    <footer class="footer">
+        <section class="stories">
+            <div class="stories-container">
+                
+                <div class="stories-content">
+                    <div class="location location-picture">
+                        <img class="desktop-location-picture" src="./assets/img/Rectangle29.jpg" alt="location 1">
+                        <img class="mobile-location-picture" src="./assets/img/Rectangle15.jpg" alt="location 1">
+                    </div>
+                    <div class="location">
+                        <h3 class="title-3">
+                            10 Photos of Attractive Thailand
+                        </h3>
+                        <p class="location-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                        </p>
+                        <a class="read-more" href="">Read More</a>                        
+                    </div>
+                    <div class="location location-picture">
+                        <img class="desktop-location-picture" src="./assets/img/Rectangle30.jpg" alt="location 2">
+                        <img class="mobile-location-picture" src="./assets/img/Rectangle16.jpg" alt="location 2">
+                    </div>
+                    <div class="location">
+                        <h3 class="title-3">
+                            Canyonlands National Park, Utah
+                        </h3>
+                        <p class="location-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                        </p>
+                        <a class="read-more" href="">Read More</a>
+                    </div>
+                    <div class="location">
+                        <img class="desktop-location-picture" src="./assets/img/Rectangle31.jpg" alt="location 3">
+                        <img class="mobile-location-picture" src="./assets/img/Rectangle27.jpg" alt="location 3">
+                    </div>
+                    <div class="location">
+                        <h3 class="title-3">
+                            I left my heart in the Mountains!
+                        </h3>
+                        <p class="location-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                        </p>
+                        <a class="read-more" href="">Read More</a>
+                    </div>
+                    <div class="location location-picture">
+                        <img class="desktop-location-picture" src="./assets/img/Rectangle32.jpg" alt="location 4">
+                        <img class="mobile-location-picture" src="./assets/img/Rectangle17.jpg" alt="location 4">
+                    </div>
+                    <div class="location">
+                        <h3 class="title-3">
+                            The Longest journey in my life!
+                        </h3>
+                        <p class="location-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                        </p>
+                        <a class="read-more" href="">Read More</a>
+                    </div>
+                </div>
+                <div class="button-footer">
+                    <button class="button-more icon-arrow">See More</button>
+                </div>
+            </div>
+        </section>
+            <ul class="social" id="social">
+                <li class="fake-element">
+
+                </li>
+                <li class="copyright">
+                    All Rights Reserved © Travel Portal
+                </li>
+                <li>
+                    <ul class="social-icon">
+                        <li class="footer-icon ficon">
+                            <a href="https://rs.school/js-stage0/"><img class="inst-icon" src="./assets/svg/Inst.svg" alt="rsschool logo"></a>
+                        </li>
+                        <li class="footer-icon ficon">
+                            <a href="https://github.com/SergioAJS"><img class="youtube-icon" src="./assets/svg/Group_youtube.svg" alt="github logo"></a>
+                        </li>
+                        <li class="footer-icon ficon">
+                            <a href="https://github.com/SergioAJS"><img class="twitter-icon" src="./assets/svg/Twit.svg" alt="github logo"></a>
+                        </li>
+                    </ul>   
+                </li>
+            </ul>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
